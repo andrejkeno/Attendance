@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/StudentsList"
+        style="@style/listViewStudentItem" />
+
+    <TextView
+        android:id="@+id/StudentsAttendTime"
+        style="@style/listViewStudentItem.Time" />
+
+    <TextView
+        android:id="@+id/StudentsLeaveTime"
+        style="@style/listViewStudentItem.Time" />
+
+
+</LinearLayout>

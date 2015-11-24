@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <integer name="linear_layout_weight">1</integer>
+    <dimen name="layout_land_padding">0dp</dimen>
+    <dimen name="zero">0dp</dimen>
+
+    //Edit Text
+    <dimen name="edit_text_font">20sp</dimen>
+
+    //Text View
+    <dimen name="text_view_font">25sp</dimen>
+    <dimen name="text_view_state_font">15sp</dimen>
+    <integer name="text_view_weight">1</integer>
+
+    //Button
+    <dimen name="Button_font">20sp</dimen>
+    <dimen name="button_stroke_width">3dp</dimen>
+    <dimen name="button_radius">20dp</dimen>
+    <dimen name="button_margin">20dp</dimen>
+    <dimen name="dialog_button_margin">5dp</dimen>
+
+    /Date Picker
+    <integer name="time_picker_weight">2</integer>
+    <integer name="time_picker_land_weight">3</integer>
+
+    //List item
+    <dimen name="list_item_font">15sp</dimen>
+    <dimen name="tables_list_item_font">25sp</dimen>
+    <integer name="list_item__student_weight">3</integer>
+    <integer name="list_item__time_weight">1</integer>
+
+</resources>

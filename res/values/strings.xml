@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string name="action_settings">Settings</string>
+
+    //Activity titles
+    <string name="title_activity_started_now">Started now</string>
+    <string name="title_activity_started_at_time">Started at time</string>
+    <string name="title_activity_start_at_time">Start at time</string>
+    <string name="title_activity_finished">Finished</string>
+
+
+    //Time pickers
+    <color name="numbers_color">#ffffff</color>
+
+    //
+    <color name="above_layer_background">#cc000000</color>
+    <color name="text_color">#ffffff</color>
+
+    //Strings for tabs
+    <string name="tab1">Session</string>
+    <string name="tab2">Present</string>
+
+    //Strings for text views
+    <string name="set">Set</string>
+    <string name="start_time">Start time:</string>
+    <string name="started">Started:</string>
+    <string name="end_time">End time:</string>
+    <string name="ended">Ended:</string>
+    <string name="students_present">Students present:</string>
+
+    <string name="not_connected">Not connected to a device!</string>
+    <string name="title_connected_to">Connected to a device: </string>
+    <string name="title_connecting">Connecting to: </string>
+
+    <string name="attend_perm_description">Permission to use Attend application and attend class</string>
+    <string name="attend_perm_label">Attend permission</string>
+
+    //Toasts
+    <string name="bt_enabled">Bluetooth enabled </string>
+    <string name="bt_not_enabled_leaving">Bluetooth not enabled </string>
+    <string name="signed_in">Signed in</string>
+    <string name="signed_out">Signed out</string>
+    <string name="already_signed">You are already attending!</string>
+    <string name="bluetooth_error">Bluetooth error, try restarting your phone!</string>
+    <string name="noRecord">Student is not in the database!</string>
+
+    //Strings for buttons
+    <string name="start_now">Start now!</string>
+    <string name="set_start_time">Set start time!</string>
+    <string name="start_at_time">Start at time!</string>
+    <string name="end_now">End now!</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="history">History</string>
+
+    //Menu items
+    <string name="end_session">End session!</string>
+    <string name="cancel_session">Cancel session!</string>
+    <string name="finish_session">Finish</string>
+    <string name="discoverable">Discoverable</string>
+    <string name="listening">Listening</string>
+    <string name="export">Export</string>
+    <string name="viewAndExp">View and exp</string>
+    <string name="delete">Delete</string>
+
+    //Messages
+    <string name="Attend">Attend</string>
+    <string name="Leave">Leave</string>
+    <string name="Error">Error</string>
+    <string name="disconnect">Disconnect!</string>
+    <string name="noStudents">No students...</string>
+    <string name="saveAs">Save as:</string>
+    <string name="saved">Save successful :)</string>
+    <string name="failed">Failed to save :(</string>
+    <string name="created">Table created</string>
+    <string name="exists">Table already exist, enter new name please</string>
+    <string name="title_activity_history">History</string>
+
+</resources>

@@ -1,0 +1,152 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BackgroundTema">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/logo_etfos</item>
+    </style>
+
+    <style name="Tema">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/above_layer_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:layout_weight">@integer/linear_layout_weight</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+
+    </style>
+
+    <style name="TemaDialog">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/above_layer_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@integer/linear_layout_weight</item>
+    </style>
+
+    <style name="Tema.Horizontal">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/layout_land_padding</item>
+        <item name="android:paddingRight">@dimen/layout_land_padding</item>
+        <item name="android:paddingTop">@dimen/layout_land_padding</item>
+        <item name="android:paddingBottom">@dimen/layout_land_padding</item>
+        <item name="android:background">#00000000</item>
+
+    </style>
+
+    <style name="EditeText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/edit_text_font</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">@integer/text_view_weight</item>
+    </style>
+
+    <style name="textView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_view_font</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">@integer/text_view_weight</item>
+    </style>
+
+    <style name="textView.State">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_view_state_font</item>
+        <item name="android:gravity">center|bottom</item>
+        <item name="android:layout_weight">0</item>
+
+    </style>
+
+    <style name="textView.Horizontal">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_view_font</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="listView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="listViewStudentItem">
+        <item name="android:background">@drawable/text_view</item>
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/list_item_font</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">@integer/list_item__student_weight</item>
+    </style>
+
+    <style name="listViewTablesItem">
+        <item name="android:background">@drawable/text_view</item>
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/tables_list_item_font</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">@integer/list_item__student_weight</item>
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="listViewStudentItem.Time">
+        <item name="android:layout_weight">@integer/list_item__time_weight</item>
+    </style>
+
+
+    <style name="Button">
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/Button_font</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">@integer/text_view_weight</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="Button.Horizontal">
+        <item name="android:layout_margin">@dimen/dialog_button_margin</item>
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+
+    </style>
+
+    <style name="TimePicker">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:layout_weight">@integer/time_picker_weight</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TimePicker.Horizontal">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+</resources>

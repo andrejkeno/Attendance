@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundTema"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/Tema"
+        android:id="@+id/main_layout"
+        >
+
+        <TextView
+            android:id="@+id/text_title_main"
+            style="@style/textView"
+            android:gravity="center"
+            android:text="@string/app_name" />
+
+        <Button
+            android:id="@+id/button_start_now_main"
+            style="@style/Button"
+            android:text="@string/start_now"
+            />
+
+        <Button
+            android:id="@+id/button_start_at_time_main"
+            style="@style/Button"
+            android:text="@string/set_start_time"
+            />
+
+        <Button
+            android:id="@+id/history_button"
+            style="@style/Button"
+            android:text="@string/history"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

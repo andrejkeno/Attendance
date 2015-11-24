@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundTema"
+    tools:context="andrej.jelic.attendance.History">
+
+    <LinearLayout
+
+        style="@style/Tema">
+
+        <TextView
+            android:id="@+id/textView_table"
+            style="@style/textView"
+            android:text="@string/history"
+            android:gravity="center" />
+
+        <ListView
+            android:id="@+id/ListTables"
+            style="@style/textView"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

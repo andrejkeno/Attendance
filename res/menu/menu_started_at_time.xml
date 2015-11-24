@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="andrej.jelic.attendance.Started_at_time">
+
+    <item
+        android:id="@+id/discoverable_started_at_time"
+        android:enabled="false"
+        android:showAsAction="always"
+        android:title="@string/discoverable" />
+
+    <item
+        android:id="@+id/end_session_started_at_time"
+        android:showAsAction="always|withText"
+        android:title="@string/end_session" />
+
+    <item
+        android:id="@+id/cancel_session_started_at_time"
+        android:showAsAction="ifRoom"
+        android:title="@string/cancel_session" />
+
+    <item
+        android:id="@+id/disconnect_started_at_time"
+        android:enabled="false"
+        android:showAsAction="always"
+        android:title="@string/disconnect" />
+
+</menu>

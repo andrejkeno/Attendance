@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="andrej.jelic.attendance.History">
+
+    <item
+        android:id="@+id/export"
+        android:title="@string/export"
+        android:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/viewAndExport"
+        android:title="@string/viewAndExp"
+
+        android:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete"
+        android:showAsAction="ifRoom"
+        android:checkable="true"
+        android:checked="false" />
+</menu>

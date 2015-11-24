@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="andrej.jelic.attendance.StartedAtTimeFragment"
+    style="@style/BackgroundTema">
+
+    <LinearLayout style="@style/Tema">
+
+        <LinearLayout style="@style/Tema.Horizontal">
+
+            <TextView
+                android:id="@id/text_start_time_fragment_time"
+                style="@style/textView.Horizontal"
+                android:text="@string/start_time" />
+
+            <TextView
+                android:id="@id/text_end_time_fragment_time"
+                style="@style/textView.Horizontal"
+                android:text="@string/end_time" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Tema.Horizontal">
+
+            <TextView
+                android:id="@+id/view_start_time_fragment_time"
+                style="@style/textView.Horizontal" />
+
+
+            <TextView
+                android:id="@+id/view_end_time_fragment_time"
+                style="@style/textView.Horizontal" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar_fragment_time"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="5dip"
+            android:minHeight="5dip"
+            android:visibility="invisible"/>
+
+        <LinearLayout style="@style/Tema.Horizontal">
+
+            <TextView
+                android:id="@+id/text_student_present_fragment_time"
+                style="@style/textView.Horizontal"
+                android:layout_weight="3"
+                android:text="@string/students_present" />
+
+            <TextView
+                android:id="@+id/view_student_present_fragment_time"
+                style="@style/textView.Horizontal"
+                android:gravity="left|center"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_fragment_time"
+            style="@style/textView.State"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

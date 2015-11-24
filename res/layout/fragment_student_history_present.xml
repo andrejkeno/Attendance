@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundTema"
+    tools:context="andrej.jelic.attendance.StudentHistoryPresent">
+
+    <LinearLayout
+
+        style="@style/Tema"
+        android:paddingLeft="@dimen/zero"
+        android:paddingRight="@dimen/zero">
+
+        <TextView
+            android:id="@+id/textView_tableName"
+            style="@style/textView"
+            android:gravity="center" />
+
+
+        <ListView
+            android:id="@+id/ListStudents"
+            style="@style/listView"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+</LinearLayout>

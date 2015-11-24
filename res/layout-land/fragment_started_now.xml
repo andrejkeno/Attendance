@@ -1,0 +1,63 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="andrej.jelic.attendance.StartedNowFragment"
+    style="@style/BackgroundTema">
+
+    <LinearLayout
+        style="@style/Tema">
+
+        <LinearLayout
+            style="@style/Tema.Horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/text_start_time_fragment_now"
+                style="@style/textView.Horizontal"
+                android:text="@string/start_time" />
+
+            <TextView
+                android:id="@+id/text_student_present_fragment_now"
+                style="@style/textView.Horizontal"
+                android:text="@string/students_present" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Tema.Horizontal"
+            >
+
+            <TextView
+                android:id="@+id/view_start_time_fragment_now"
+                style="@style/textView.Horizontal"/>
+
+
+            <TextView
+                android:id="@+id/view_student_present_fragment_now"
+                style="@style/textView.Horizontal"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar_fragment_now"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="5dip"
+            android:minHeight="5dip"
+            android:visibility="invisible" >
+        </ProgressBar>
+
+        <TextView
+            style="@style/textView.State"
+            android:id="@+id/title_fragment_now" />
+
+        <Button
+            android:id="@+id/button_end_now_fragment_now"
+            style="@style/Button"
+            android:text="@string/end_now" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

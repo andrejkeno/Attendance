@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="andrej.jelic.attendance.Start_at_time"
+    style="@style/BackgroundTema">
+
+    <LinearLayout
+        style="@style/Tema">
+
+        <TextView
+            android:id="@+id/set"
+            style="@style/textView"
+            android:text="@string/set" />
+
+        <LinearLayout
+            style="@style/Tema.Horizontal">
+
+            <TextView
+                android:id="@+id/text_start_time_activity"
+                style="@style/textView.Horizontal"
+                android:text="@string/start_time" />
+
+            <TextView
+                android:id="@+id/text_end_time_activity"
+                style="@style/textView.Horizontal"
+                android:text="@string/end_time"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Tema.Horizontal"
+            android:layout_weight="2">
+
+            <TimePicker
+                android:id="@+id/start_time_Picker"
+                style="@style/TimePicker.Horizontal"
+                />
+
+            <TimePicker
+                android:id="@+id/end_time_Picker"
+                style="@style/TimePicker.Horizontal"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_start"
+            style="@style/Button"
+            android:text="@string/start_at_time"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

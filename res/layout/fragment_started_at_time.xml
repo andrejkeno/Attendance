@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundTema"
+    tools:context="andrej.jelic.attendance.StartedAtTimeFragment">
+
+    <LinearLayout
+
+        style="@style/Tema">
+
+        <TextView
+            android:id="@+id/text_start_time_fragment_time"
+            style="@style/textView"
+            android:text="@string/start_time" />
+
+        <TextView
+            android:id="@+id/view_start_time_fragment_time"
+            style="@style/textView" />
+
+        <TextView
+            android:id="@+id/text_end_time_fragment_time"
+            style="@style/textView"
+            android:text="@string/end_time" />
+
+        <TextView
+            android:id="@+id/view_end_time_fragment_time"
+            style="@style/textView" />
+
+        <TextView
+            android:id="@+id/text_student_present_fragment_time"
+            style="@style/textView"
+            android:text="@string/students_present" />
+
+        <TextView
+            android:id="@+id/view_student_present_fragment_time"
+            style="@style/textView" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_fragment_time"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="5dip"
+            android:minHeight="5dip"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/title_fragment_time"
+            style="@style/textView.State"/>
+
+    </LinearLayout>
+
+</LinearLayout>

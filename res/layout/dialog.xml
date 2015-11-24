@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TemaDialog">
+
+    <EditText
+        android:id="@+id/tableName"
+        style="@style/EditeText" />
+
+    <LinearLayout style="@style/Tema.Horizontal">
+
+        <Button
+            android:id="@+id/button_cancel"
+            style="@style/Button.Horizontal"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/button_save"
+            style="@style/Button.Horizontal"
+            android:text="@string/save" />
+
+    </LinearLayout>
+
+</LinearLayout>
